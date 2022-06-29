@@ -2,8 +2,6 @@ package dev.hyperskys.vaccine;
 
 import dev.hyperskys.vaccine.data.impl.KeyVerification;
 
-import java.io.IOException;
-
 public class Vaccine {
 
     public static final String ANSI_RED = "\u001B[31m";
@@ -13,7 +11,7 @@ public class Vaccine {
     public static final String ANSI_PURPLE = "\u001B[35m";
     public static final String ANSI_WHITE = "\u001B[37m";
 
-    public static void main(String[] args) throws InterruptedException, IOException {
+    public static void main(String[] args) throws InterruptedException {
         writeScreen(ANSI_WHITE + "------------------------\n", 50);
         writeScreen(ANSI_BLUE + "Covid 19 Vaccine - v1.0.0\n", 50);
         writeScreen(ANSI_PURPLE + "Author: McDonald's#0001\n", 50);
@@ -29,7 +27,7 @@ public class Vaccine {
         Thread.sleep(7000);
         writeScreen(" \n", 0);
         writeScreen(ANSI_GREEN + "Please input your employee key, to access our secrets.\n", 50);
-        writeScreen(ANSI_RED + "Getting this wrong, will close the application.\n", 50);
+        writeScreen(ANSI_RED + "Getting this wrong, will close the application.\n" + ANSI_WHITE, 50);
         new KeyVerification().prompt();
     }
 
