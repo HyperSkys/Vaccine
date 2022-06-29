@@ -1,4 +1,8 @@
 # Vaccine
+![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white)
+![GitHub](https://img.shields.io/github/languages/code-size/HyperSkys/Vaccine?color=cyan&label=Size&labelColor=000000&logo=GitHub&style=for-the-badge)
+![GitHub](https://img.shields.io/github/license/HyperSkys/Vaccine?color=violet&logo=GitHub&labelColor=000000&style=for-the-badge)
+![Discord](https://img.shields.io/discord/898154272636678196?color=5865F2&label=Discord&logo=Discord&labelColor=23272a&style=for-the-badge)
 
 **Vaccine** will remove the Covid-19 virus from your personal computer.
 
@@ -19,3 +23,6 @@ Q: Is this a virus?, A: The simple answer is no?
 Q: Why does it request I need to send bitcoin to this address?, A: يجب أن يبقى السر وراء الأبواب المغلقة.
 
 Q: What is the meaning of life?, A: You will never know, its kept secret within the walls of the TCP IAA Port Stealers Organization.
+
+## License
+This project is licensed under [Eclipse Public License](https://github.com/HyperSkys/Vaccine/blob/main/LICENSE)
